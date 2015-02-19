@@ -27,7 +27,8 @@
 + (Contador *)instance {
     static Contador *sharedContador = nil;
     static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
+    dispatch_once(&onceToken, ^
+    {
         sharedContador = [[self alloc] init];
     });
     return sharedContador;

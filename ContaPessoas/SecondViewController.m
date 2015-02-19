@@ -31,6 +31,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) update
+{
+    totalBoys.text = [NSString stringWithFormat: @"%d", [contador getBoys]];
+    totalGirls.text = [NSString stringWithFormat: @"%d", [contador getGirls]];
+    total.text = [NSString stringWithFormat:@"%d", [contador getTotal] ];
+}
+
 - (IBAction)click:(id)sender
 {
     totalBoys.text = [NSString stringWithFormat: @"%d", [contador getBoys]];
