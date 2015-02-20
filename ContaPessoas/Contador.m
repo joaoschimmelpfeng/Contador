@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "Contador.h"
 
-
 @implementation Contador {
     int boy;
     int girl;
 }
+@synthesize delegate;
 
 -(id)init {
     self = [super init];
@@ -24,7 +24,8 @@
     return self;
 }
 
-+ (Contador *)instance {
++ (Contador *)instance
+{
     static Contador *sharedContador = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^
@@ -36,9 +37,11 @@
 
 - (void)maisUmCueca {
     boy = boy + 1;
+    [delegate atualizar];
 }
 - (void)maisUmaGata {
     girl++;
+    [delegate atualizar];
 }
 
 -(int)getBoys {

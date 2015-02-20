@@ -7,14 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Contador.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <cDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *totalBoys;
 @property (weak, nonatomic) IBOutlet UILabel *totalGirls;
 @property (weak, nonatomic) IBOutlet UILabel *total;
 -(void) update;
 - (IBAction)click:(id)sender;
-
+-(void) atualizar;
 @end
 

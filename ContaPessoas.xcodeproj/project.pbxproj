@@ -19,7 +19,6 @@
 		27A199D11A94B501008DC684 /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A199D01A94B501008DC684 /* boy.png */; };
 		27A199D31A94D1FA008DC684 /* Contador.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A199D21A94D1FA008DC684 /* Contador.m */; };
 		27A199D61A94D821008DC684 /* ContadorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A199D51A94D821008DC684 /* ContadorTests.m */; };
-		E6F61E5F1A965C8100B25ED5 /* tabView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F61E5E1A965C8100B25ED5 /* tabView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +52,6 @@
 		27A199D21A94D1FA008DC684 /* Contador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contador.m; sourceTree = "<group>"; };
 		27A199D41A94D22B008DC684 /* Contador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contador.h; sourceTree = "<group>"; };
 		27A199D51A94D821008DC684 /* ContadorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContadorTests.m; sourceTree = "<group>"; };
-		E6F61E5D1A965C8100B25ED5 /* tabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabView.h; sourceTree = "<group>"; };
-		E6F61E5E1A965C8100B25ED5 /* tabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +101,6 @@
 				27A199AB1A94B2A8008DC684 /* FirstViewController.m */,
 				27A199AD1A94B2A8008DC684 /* SecondViewController.h */,
 				27A199AE1A94B2A8008DC684 /* SecondViewController.m */,
-				E6F61E5D1A965C8100B25ED5 /* tabView.h */,
-				E6F61E5E1A965C8100B25ED5 /* tabView.m */,
 				27A199B01A94B2A8008DC684 /* Main.storyboard */,
 				27A199B31A94B2A8008DC684 /* Images.xcassets */,
 				27A199B51A94B2A8008DC684 /* LaunchScreen.xib */,
@@ -247,7 +242,6 @@
 			files = (
 				27A199AF1A94B2A8008DC684 /* SecondViewController.m in Sources */,
 				27A199A91A94B2A8008DC684 /* AppDelegate.m in Sources */,
-				E6F61E5F1A965C8100B25ED5 /* tabView.m in Sources */,
 				27A199AC1A94B2A8008DC684 /* FirstViewController.m in Sources */,
 				27A199D31A94D1FA008DC684 /* Contador.m in Sources */,
 				27A199A61A94B2A8008DC684 /* main.m in Sources */,

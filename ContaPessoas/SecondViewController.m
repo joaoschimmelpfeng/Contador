@@ -9,7 +9,8 @@
 #import "SecondViewController.h"
 #import "Contador.h"
 
-@interface SecondViewController () {
+@interface SecondViewController ()
+{
       Contador *contador;
 }
 
@@ -18,10 +19,16 @@
 @implementation SecondViewController
 @synthesize totalBoys,total,totalGirls;
 
+-(void)atualizar
+{
+    [self click:0];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     contador = [Contador instance];
+    [contador setDelegate:self];
+    [self atualizar];
 }
 
 
